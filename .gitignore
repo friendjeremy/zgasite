@@ -1,0 +1,20 @@
+.hg
+.hg/*
+bower_components
+bower_components/*
+
+# Ignore all logfiles and tempfiles.
+log/*
+log/*.log
+!log/*.txt
+
+
+tmp/*
+!tmp/*.txt
+
+# ingore the node_modules dir as that needs to be server specific
+/node_modules/*
+
+# ignore the assets dir so they compile at start
+!public/
+public/*/assets/*
