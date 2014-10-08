@@ -15,6 +15,15 @@ p {
 	font-size: 14px;
 	color: #111111;
 }
+a {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #111111;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+	color: #736357;
+}
 h1 {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -39,6 +48,13 @@ h3 {
 td h3 {
 	color: #111111;
 }
+h4 {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #ed1c24;
+	text-transform: uppercase;
+}
 h5 {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -59,6 +75,9 @@ input{
 .default-page {
 	padding: 0px 10px 20px 10px;
 }
+.default-page h1, .default-page h2 {
+	color: #111111;
+}
 .important-items > div > img {
 	padding-top: 10px;
 }
@@ -67,7 +86,6 @@ input{
 	font-size: 20px;
 	color: #fff;
 }
-
 /* Carousel */
 .carousel {
 	margin-top: -19px;
